@@ -1,27 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Dogecoin Free Mining!</title>
+        <title>Dogecoin Tips</title>
 
         <meta charset = "utf-8">
 		<link rel = "shortcut icon" type = "image/x-icon" href="Logo.ico" />
 
-		<meta name = "author" content = "Dogecoin" />
-		<meta name = "description" content = "Dogecoin" />
-		<meta name = "keywords" content = "Free Dogecoin, Dogecoin tips" />
+		<meta name = "author" content = "Dogecoin Tips" />
+		<meta name = "description" content = "Learn how to make Dogecoin easily!" />
+		<meta name = "keywords" content = "Dogecoin Tips" />
 
-		<meta property = "og:title" content = "Dogecoin Mining Tips" />
-		<meta property = "og:description" content = "Easy tutorial on how to make Dogecoin" />
+		<meta property = "og:title" content = "Dogecoin Tips" />
+		<meta property = "og:description" content = "Learn how to make Dogecoin easily!" />
 
         <style>
             body {
 				background-color: rgb(25, 25, 25);
                 color: white;
                 font-family: "Trebuchet MS";
-                background-image: url(Background.png);
-				background-attachment: fixed;
-				background-size: cover;
-				background-repeat: no-repeat;
 			}
 
             body::-webkit-scrollbar {
@@ -30,6 +26,22 @@
       
             body::-webkit-scrollbar-thumb {
                 background-color: rgb(80, 80, 80);
+            }
+
+            #dogeImage {
+                margin-top: 20px;
+                height: 90px;
+            }
+
+            #scriptBtn {
+                color: rgb(255, 255, 255);
+                background-color: rgb(45, 45, 45);
+                margin-top: 45px;
+                border: 0px;
+                border-radius: 5px;
+                cursor: pointer;
+                width: 500px;
+                height: 35px;
             }
 
             #copyPopup {
@@ -44,7 +56,7 @@
                 height: 35px;
             }
 
-            #miningBtn {
+            #minerBtn {
                 background-color: rgb(45, 45, 45); 
                 color: rgb(255, 255, 255); 
                 font-size: large; 
@@ -73,15 +85,22 @@
                 height: 0px;
             }
 
+            #copyBtn:hover {
+                background-color: rgb(70, 70, 70);
+            }
+        </style>
+    </head>
+    <body>
+        <input type="text" value="Copied to clipboard!" readonly id="copyPopup">
         <center>
-            <img src="https://media.discordapp.net/attachments/708512510860328964/722059603319324702/kek.gif" alt="Harming Potion" id="Pot Gif">
+            <img src="https://media.discordapp.net/attachments/741386151411056761/742075249280942200/Dogecoin_Logo.png" alt="Doge" id="Doge">
             <br>
-            <button id="scriptBtn"><span style="color: rgb(255, 0, 0);">BUY DANKPOTS! REALLY DANK PRICES!</button>
+            <button id="scriptBtn"><span style="color: rgb(255, 0, 0);">So doge much cheap wow doge</button>
             <br>
             <div id="detailLine"></div>
             <br>
-            <h1 style="font-family: monospace;">What are Dank Pots?</h1>
-            <i style="color: rgb(180, 180, 180);"><span style="color: rgb(255, 0, 0);">DANK</span> <span style="color: rgb(0, 0, 0);">POTS</span> are handmade Minecraft Harming Pots created by <span style="color: rgb(255, 255, 255);">DankBurgerz</span> also known as <span style="color: rgb(255, 255, 255);">iiMadShotz</span>.<br>It currently has over 10+ shulks in stock! It is made to kill supplied Newjews at spawn! We also care about our customers so thats why we have cheap prices!</i>
+            <h1 style="font-family: monospace;">What is dogecoin??</h1>
+            <i style="color: rgb(180, 180, 180);"><span style="color: rgb(255, 0, 0);"Dogecoin is a decentralized, peer-to-peer digital currency that enables you to easily send money online. Think of it as "the internet currency."</i>
             <div id="detailLine"></div>
             <br>
             <h1 style="font-family: monospace;">Where you can find me</h1>
